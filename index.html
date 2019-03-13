@@ -2,29 +2,28 @@
 <html>
 	<head>
 		<link 
-		rel="stylesheet" 
-		type="text/css" 
-		href="style.css">
-		<title> My Website! </title>
-	</head>	
+		rel='stylesheet' 
+		type='text/css' 
+		href='newstyle.css'>
+		<style> #interactive-picture {
+				display: inline-block;
+				}
+				
+				#interactive-picture:hover .display-hover {
+					display:block;
+					}
+				
+				.display-hover{
+					display:none}
+					
+		</style>
+		<title>Greatest Website Ever!</title>
+	</head>
 	<body>
-		This is the new body
-		<div id="div-id" style="width: 500px">
-			<ul>
-				<li class= "second-class list-class">Milk</li>
-				<li class="second class">Bread</li>
-				<li class="list-class">Dog Food</li>
-			</ul>
+		<div id='interactive-picture'>
+			<img src='flower.jpg' height='200px' wideth='100px'>
+			<p class='display-hover'>
+			<p>This is some text</p>
 		</div>
-		<ol> 
-
-			<li>Milk</li>
-			<li>Bread</li>
-			<li>Dog Food</li>
-		</ol>
-		<h1> This is an h1 tag</h1>
-		<h2> This is an h2 tag </h2>
-		<p>This is a <b>highlighted word</b> paragraph of text </p>
-		<a href="http://www.google.co.uk">Go to Google!</a>
 	</body>
-</html>
+	</html>
